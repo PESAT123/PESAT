@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(to right, #ff9933, #ffffff, #138808); /* Tiranga effect */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #222;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00cc99;
+}
+
+/* Main Content */
+main {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+  line-height: 1.8;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+/* Image Styling */
+main img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* Social Media */
+.social-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.social-tabs a {
+  background-color: #ddd;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.social-tabs a:hover {
+  background-color: #138808;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
