@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PESAT | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.png" type="image/png"/>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <img src="images/logo.png" alt="PESAT Logo" class="loader-logo"/>
+    <h2>PESAT</h2>
+    <p>People for Environment, Street Animals & Trees</p>
+    <h4>Founder: Shubham</h4>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" style="display: none;">
+    <header>
+      <nav>
+        <img src="images/logo.png" class="nav-logo" alt="PESAT Logo" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="records.html">Transaction Records</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Welcome to PESAT</h1>
+      <p>We serve voiceless animals, plant trees, and help those in need.</p>
+    </section>
+  </div>
+
+  <script>
+    // Show loader for 3.5 seconds
+    window.onload = () => {
+      setTimeout(() => {
+        document.getElementById('loader').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+      }, 3500);
+    };
+  </script>
+</body>
+</html>
